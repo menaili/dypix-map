@@ -1,0 +1,42 @@
+[
+    {
+        "order": "1",
+        "ville": "ALGER - KOUBA ",
+        "adresse": "06 rue Ali Alliche, l'Approval, commune de Kouba, wilaya d'Alger",
+        "tel": "023 78 51 43#0770 14 10 13#0770 54 53 48",
+        "lat": "36.72350038996628",
+        "lng": "3.0917484269894193",
+        "image": "medias\/img1.jpg",
+        "status": "1"
+    },
+    {
+        "order": "2",
+        "ville": "TIZI OUZOU - AZAZGA",
+        "adresse": "Boulevard Mohamed Zaidat, Dira d\u2019Azazga \u2013 Wilaya de Tizi Ouzou",
+        "tel": "026 46 12 37#0770 40 06 73",
+        "lat": "36.74676245699385",
+        "lng": "4.361054232956708",
+        "image": "medias\/img2.jpg",
+        "status": "1"
+    },
+    {
+        "order": "3",
+        "ville": "BOUMERDES",
+        "adresse": "Cit\u00e9 11 d\u00e9cembre 1960 \u2013 wilaya de BOUMERDES",
+        "tel": "024 75 01 38#0770 73 22 88",
+        "lat": "36.754881078965354",
+        "lng": "3.4568950130625677",
+        "image": "medias\/img2.jpg",
+        "status": "1"
+    },
+    {
+        "order": "4",
+        "ville": "BBA",
+        "adresse": "Annasser",
+        "tel": "021 21 21 21 21",
+        "lat": "36.215488796548853",
+        "lng": "3.2154789632145568",
+        "image": "media\/img3.jpg",
+        "status": "1"
+    }
+]

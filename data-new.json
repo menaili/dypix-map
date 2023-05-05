@@ -1,0 +1,98 @@
+[
+    {
+        "order": "1",
+        "willaya": "ALGER",
+        "ville": "KOUBA ",
+        "adresse": "06 rue Ali Alliche, l'Approval, commune de Kouba, wilaya d'Alger",
+        "tel": "023 78 51 43#0770 14 10 13#0770 54 53 48",
+        "lat": "36.72350038996628",
+        "lng": "3.0917484269894193",
+        "client": "Professionnels",
+        "image": "medias\/img1.jpg",
+        "status": "1"
+    },
+    {
+        "order": "2",
+        "willaya": "TIZI OUZOU",
+        "ville": "AZAZGA",
+        "adresse": "Boulevard Mohamed Zaidat, Dira d\u2019Azazga \u2013 Wilaya de Tizi Ouzou",
+        "tel": "026 46 12 37#0770 40 06 73",
+        "lat": "36.74676245699385",
+        "lng": "4.361054232956708",
+        "client": "Particuliers",
+        "image": "medias\/img2.jpg",
+        "status": "1"
+    },
+    {
+        "order": "3",
+        "willaya": "BOUMERDES",
+        "ville": "BOUMERDES",
+        "adresse": "Cit\u00e9 11 d\u00e9cembre 1960 \u2013 wilaya de BOUMERDES",
+        "tel": "024 75 01 38#0770 73 22 88",
+        "lat": "36.754881078965354",
+        "lng": "3.4568950130625677",
+        "client": "Particuliers",
+        "image": "medias\/img2.jpg",
+        "status": "1"
+    },
+    {
+        "order": "4",
+        "willaya": "BBA",
+        "ville": "BBA",
+        "adresse": "Les annassers, city 1700",
+        "tel": "021 21 21 21",
+        "lat": "36.32145698778955",
+        "lng": "3.2145639874563214",
+        "client": "Professionnels",
+        "image": "medias\/img3.jpg",
+        "status": "0"
+    },
+    {
+        "order": "5",
+        "willaya": "BOUIRA",
+        "ville": "BOUIRA",
+        "adresse": "Cit\u00e9 72 AMMAR KHOUDJA\u00a0, Wilaya de BOUIRA",
+        "tel": "026 73 80 57026 73 80 57 \/ 0770 40 12 42#0770 40 06 770770 40 12 42#0770 40 06 77",
+        "lat": "36.37008374811742",
+        "lng": "3.8759356842869295",
+        "client": "Particuliers",
+        "image": "medias\/img5.jpg",
+        "status": "0"
+    },
+    {
+        "order": "6",
+        "willaya": "BEJAIA",
+        "ville": "AKBOU",
+        "adresse": "Boulevard Aissat Idir, Guendouza (\u00e0 c\u00f4t\u00e9 Djezzy et Ooredoo) \u2013 wilaya de bejaia",
+        "tel": "0770 40 07 86#0770 40 02 76",
+        "lat": "36.45586655793884",
+        "lng": "4.535810193710605",
+        "client": "Particuliers",
+        "image": "medias\/img6.jpg",
+        "status": "0"
+    },
+    {
+        "order": "7",
+        "willaya": "TIZI OUZOU",
+        "ville": "SHOW ROOM TIZI OUZOU 02",
+        "adresse": "Avenue Chabane Ahcene , sortie Est \u2013 wilaya de TIZI OUZOU",
+        "tel": "026 10 70 54#0770 40 04 78",
+        "lat": "36.71116767858787",
+        "lng": "4.073865267756614",
+        "client": "Professionnels",
+        "image": "medias\/img7.jpg",
+        "status": "0"
+    },
+    {
+        "order": "8",
+        "willaya": "TIZI OUZOU",
+        "ville": "SHOW ROOM TIZI OUZOU 01",
+        "adresse": "05 Boulevard Stiti, Rue de la gare \u2013 wilaya de TIZI OUZOU",
+        "tel": "026 19 94 22#0770 40 05 22",
+        "lat": "36.710689036531576",
+        "lng": "4.0359527644431035",
+        "client": "Particuliers",
+        "image": "medias\/img8.jpg",
+        "status": "1"
+    }
+]
