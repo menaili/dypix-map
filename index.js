@@ -1,6 +1,7 @@
 import data from './data-new.json' assert {type: 'json'};
 
 let Marker;
+let MarkerAll;
 function initMap() {
     const map = new google.maps.Map(document.getElementById("map"), {
       zoom: 8,
@@ -8,7 +9,7 @@ function initMap() {
     });  
     setMarkerspart(map);
     setMarkerspro(map);
-    setMarkersall(map);
+    //setMarkersall(map);
   
   }  
   let beaches = [];
@@ -26,9 +27,9 @@ function initMap() {
       imagePro.push( [data[i].client, parseFloat(data[i].lat), parseFloat(data[i].lng), data[i].willaya] ); 
     }
   }   
-  console.log(imagePart);
-  console.log(imagePro);
-  console.log(beaches);
+  //console.log(imagePart);
+  //onsole.log(imagePro);
+  //console.log(beaches);
   
   function setMarkerspart(map) {
     const image = {
@@ -56,7 +57,8 @@ function initMap() {
           zoom: 14,
           center: { lat: imageP[1], lng: imageP[2]  },
         });
-        setMarkerspart(map);    
+        setMarkerspart(map);
+        setMarkerspro(map);    
       });
     }   
   }
@@ -74,7 +76,7 @@ function initMap() {
     };  
     for (let i = 0; i < imagePro.length; i++) {
       const imagePr = imagePro[i];  
-      Marker = new google.maps.Marker({
+      MarkerAll = new google.maps.Marker({
         position: { lat: imagePr[1], lng: imagePr[2] },
         map,
         icon: image,
@@ -82,14 +84,16 @@ function initMap() {
         title: imagePr[0],
         zIndex: imagePr[3],
       });
-      Marker.addListener('click', function() {
+      MarkerAll.addListener('click', function() {
         const map = new google.maps.Map(document.getElementById("map"), {
           zoom: 14,
           center: { lat: imagePr[1], lng: imagePr[2]  },
         });
-        setMarkerspro(map);    
+        setMarkerspro(map); 
+        setMarkerspart(map);   
       });
     }   
   }
+  
   
   window.initMap = initMap;
