@@ -34,6 +34,7 @@ function initMap() {
   }   
   console.log(imagePart);
   console.log(imagePro);
+  console.log(beaches);
 
   function setMarkerspart(map) {
 
@@ -61,7 +62,7 @@ function initMap() {
       Marker.addListener('click', function() {
         const map = new google.maps.Map(document.getElementById("map"), {
           zoom: 14,
-          center: { lat: beaches[1], lng: beaches[2]  },
+          center: { lat: imageP[1], lng: imageP[2]  },
         });
         setMarkerspart(map);    
       });
@@ -94,7 +95,7 @@ function initMap() {
       Marker.addListener('click', function() {
         const map = new google.maps.Map(document.getElementById("map"), {
           zoom: 14,
-          center: { lat: beaches[1], lng: beaches[2]  },
+          center: { lat: imagePr[1], lng: imagePr[2]  },
         });
         setMarkerspro(map);    
       });
