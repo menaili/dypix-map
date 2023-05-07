@@ -12,10 +12,10 @@ function initMap() {
     setMarkerspro(map);
 
   }  
-  // let beaches = [];
-  // for (let i = 0; i < data.length; i++) {
-  //   beaches.push( [data[i].ville, parseFloat(data[i].lat), parseFloat(data[i].lng), data[i].client] );    
-  // }
+  let beaches = [];
+  for (let i = 0; i < data.length; i++) {
+    beaches.push( [data[i].ville, parseFloat(data[i].lat), parseFloat(data[i].lng), data[i].client] );    
+  }
 
 
   let imagePro = [];
@@ -59,7 +59,7 @@ function initMap() {
       Marker.addListener('click', function() {
         const map = new google.maps.Map(document.getElementById("map"), {
           zoom: 14,
-          center: { lat: imageP[1], lng: imageP[2]  },
+          center: { lat: beaches[1], lng: beaches[2]  },
         });
         setMarkerspart(map);    
       });
@@ -92,7 +92,7 @@ function initMap() {
       Marker.addListener('click', function() {
         const map = new google.maps.Map(document.getElementById("map"), {
           zoom: 14,
-          center: { lat: imagePr[1], lng: imagePr[2]  },
+          center: { lat: beaches[1], lng: beaches[2]  },
         });
         setMarkerspro(map);    
       });
