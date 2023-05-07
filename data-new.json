@@ -45,7 +45,7 @@
         "lng": "3.2145639874563214",
         "client": "Professionnels",
         "image": "medias\/img3.jpg",
-        "status": "0"
+        "status": "1"
     },
     {
         "order": "5",
@@ -57,7 +57,7 @@
         "lng": "3.8759356842869295",
         "client": "Particuliers",
         "image": "medias\/img5.jpg",
-        "status": "0"
+        "status": "1"
     },
     {
         "order": "6",
@@ -69,7 +69,7 @@
         "lng": "4.535810193710605",
         "client": "Particuliers",
         "image": "medias\/img6.jpg",
-        "status": "0"
+        "status": "1"
     },
     {
         "order": "7",
@@ -81,7 +81,7 @@
         "lng": "4.073865267756614",
         "client": "Professionnels",
         "image": "medias\/img7.jpg",
-        "status": "0"
+        "status": "1"
     },
     {
         "order": "8",
