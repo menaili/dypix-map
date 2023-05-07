@@ -1,8 +1,6 @@
-
 import data from './data-new.json' assert {type: 'json'};
 
 let Marker;
-
 function initMap() {
     const map = new google.maps.Map(document.getElementById("map"), {
       zoom: 8,
@@ -11,18 +9,15 @@ function initMap() {
     setMarkerspart(map);
     setMarkerspro(map);
     setMarkersall(map);
-
-
+  
   }  
   let beaches = [];
   for (let i = 0; i < data.length; i++) {
     beaches.push( [data[i].ville, parseFloat(data[i].lat), parseFloat(data[i].lng), data[i].client] );    
   }
-
-
+  
   let imagePro = [];
   let imagePart = [];
-
   for (let i = 0; i < data.length; i++) {
     if (data[i].client == "Particuliers" && data[i].status == "1") {
       imagePart.push( [data[i].client, parseFloat(data[i].lat), parseFloat(data[i].lng), data[i].willaya] ); 
@@ -30,15 +25,12 @@ function initMap() {
     else if (data[i].client == "Professionnels" && data[i].status == "1") {
       imagePro.push( [data[i].client, parseFloat(data[i].lat), parseFloat(data[i].lng), data[i].willaya] ); 
     }
-      
   }   
   console.log(imagePart);
   console.log(imagePro);
   console.log(beaches);
-
+  
   function setMarkerspart(map) {
-
-
     const image = {
       url: "marker.png",
       size: new google.maps.Size(34, 51),
@@ -68,10 +60,8 @@ function initMap() {
       });
     }   
   }
-
+  
   function setMarkerspro(map) {
-
-
     const image = {
       url: "Baies-marker.png",
       size: new google.maps.Size(34, 51),
@@ -101,7 +91,5 @@ function initMap() {
       });
     }   
   }
-
-
   
   window.initMap = initMap;
