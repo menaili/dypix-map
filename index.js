@@ -10,6 +10,8 @@ function initMap() {
     });  
     setMarkerspart(map);
     setMarkerspro(map);
+    setMarkersall(map);
+
 
   }  
   let beaches = [];
