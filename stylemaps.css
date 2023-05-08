@@ -8,7 +8,7 @@
     margin: 0;
     padding: 0;
   }
-  .datalistcontent {position:relative; width: 90%; min-height: 150px; max-height: 500px; display: block; overflow: hidden; overflow-y: auto; margin: 10px auto; 
+  .datalistcontent {position:relative; width: 98%; min-height: 150px; display: block; overflow: hidden; margin: 10px auto; 
     padding: 5px; padding-bottom:0; /*border:solid 1px #000; border-left:none; border-right:none;*/}
   .listwrap {margin-top:0px; position:relative;}
   .datalist {width: 100%; min-height: 30px; line-height: 30px; clear: both; display: block; height: 25px; overflow: hidden; font-size: 68%;}
@@ -27,8 +27,8 @@
   .latdv{width: calc(10% - 3px);}
   .lngdv{width: calc(10% - 2px);}
   .cltdv{width: calc(10% - 3px);}
-  .imgdv{width: calc(9% - 2px);}
-  .actdv{width: calc(4.1% - 3px); text-align: center;}
+  .imgdv{width: calc(7% - 2px);}
+  .actdv{width: calc(4% - 3px); text-align: center;}
   .listelement {padding: 0 0 0 1px; height: 100%; display: inline-block; border: solid 1px #c0c0c0; float:left; margin: 0; overflow: hidden; z-index: 1;}
 .activeclassbg {overflow: initial;     z-index: 9;
     background: #ccc;}
@@ -45,7 +45,7 @@ input[type="text"]:focus {
     background: transparent !important;
     outline: none;
 }
-input[type="text"]:read-only{ width: 98%; text-align: center;}
+input[type="text"]:read-only{ width: 98%; text-align: center; padding:0;}
 select {    
   background: transparent;
   z-index: 9;
@@ -111,3 +111,53 @@ button.add-field{
 	-webkit-transform: scale(0.5);
 	transform: scale(0.5);
 }
+
+.villecontrol {
+  width: 88%;
+  height: 40px;
+  display: block;
+  background: rgba(255,255,255,1);
+  border-radius: 8px;
+  position: absolute;
+  top: 20px;
+  left: 6%;
+  z-index: 9;
+  opacity: .6;
+  box-shadow: 1px 1px 20px rgba(0,0,0,.5);
+transition: all 0.6;}
+  .villecontrol:hover {opacity: 1; transition: all .6;}
+  .villecontrol .container div {display: inline-block; width: fit-content;}
+  .selectville {display: block; width: 50% !important; margin-right:20px;}
+  .selectvillwillaya{
+    /*background:rgba(0,0,0,.3) !important;*/
+    position:relative;
+    height:40px;
+    padding-left: 40px;
+  }
+  select.selectvillwillaya::before{
+  
+  }
+  button.selectbutton {
+    width: 30px;
+    height: 30px;
+    border:none !important;
+    margin:5px;
+    margin-right:10px;
+    display: inline-block;
+    background: none !important;
+  }
+  button.selectbutton.proselect {background: transparent url('marker.png') no-repeat center !important; background-size: contain !important;}
+  button.selectbutton.partselect {background: transparent url('Baies-marker.png') no-repeat center !important; background-size: contain !important;}
+  #infosbulldiv {
+    width: 250px;
+    height: 180px;
+    display: none;
+    position: absolute;
+    top:50px;
+    left:200px;
+    background: #fff;
+    z-index: 10;
+  }
+  .displayedinfos {
+    display: block !important;
+  }
